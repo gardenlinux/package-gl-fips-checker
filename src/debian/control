@@ -1,0 +1,13 @@
+Source: gl-fips-checker 
+Section: utils
+Priority: optional
+Maintainer: Maintainer <maintainer@example.com>
+Build-Depends: debhelper-compat (= 13), libssl-dev
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: gl-fips-checker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Garden Linux OpenSSL FIPS checker
+ Verifies if the host is in FIPS mode, runs the KAT tests and some digest tests. 

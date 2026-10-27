@@ -1,0 +1,3 @@
+import_src src
+pkg=gl-fips-checker
+version=0.1
